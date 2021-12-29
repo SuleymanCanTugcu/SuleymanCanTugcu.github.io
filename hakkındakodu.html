@@ -1,0 +1,347 @@
+<html>
+<head>
+<title>CV sayfası</title>
+<style>
+body{
+    background-color: rgb(20, 24, 24);
+}
+
+h1{     
+        font-size: 60px;
+        position:fixed;
+        font-weight: bold;
+        left: 110px;
+        top: 114px;
+        color: rgba(230, 198, 22, 0.808);
+}
+#anasayfa{
+        position: fixed;
+        left: 590px;
+        top: 120px;
+        font-size: 20px;
+        background-color: rgb(20, 24, 24);
+        padding:15px;
+        text-decoration:none;
+        -webkit-transition:all 0.5s ease-out;
+        -moz-transition:all 0.5s ease-out;
+        -o-transition:all 0.5s ease-out;
+        transition:all 0.5s ease-out;
+}
+#anasayfa:hover{
+        background-color: rgba(230, 198, 22, 0.808);
+        border-radius: 2rem;
+}
+
+
+#cv{
+        position: fixed;
+        left: 750px;
+        top: 120px;
+        font-size: 20px;
+        background-color:rgb(20, 24, 24);
+        padding:15px;
+        text-decoration:none;
+        -webkit-transition:all 0.5s ease-out;
+        -moz-transition:all 0.5s ease-out;
+        -o-transition:all 0.5s ease-out;
+        transition:all 0.5s ease-out;
+}
+#cv:hover{
+        background-color:rgba(230, 198, 22, 0.808);
+        border-radius: 4rem;
+}
+#iletişim{
+        
+        position: fixed;
+        left: 920px;
+        top: 120px;
+        font-size: 20px;
+        background-color: rgb(20, 24, 24);
+        background-color:rgb(20, 24, 24);
+        padding:15px;
+        text-decoration:none;
+        -webkit-transition:all 0.5s ease-out;
+        -moz-transition:all 0.5s ease-out;
+        -o-transition:all 0.5s ease-out;
+        transition:all 0.5s ease-out;
+       
+}
+#iletişim:hover{
+        background-color: rgba(230, 198, 22, 0.808);
+        border-radius: 4rem;
+}
+
+
+p.solid{
+        border-bottom: 2px solid rgb(219, 207, 207);
+        border-width: 4px;
+        width: 30px;
+        }
+
+p.yazıstili1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.neonText {
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px rgba(230, 227, 22, 0.39),
+    0 0 82px rgba(230, 227, 22, 0.39),
+    0 0 92px rgba(230, 227, 22, 0.39),
+    0 0 102px rgba(230, 227, 22, 0.39),
+    0 0 151px rgba(230, 227, 22, 0.39);
+}
+#yazı1{
+        position:absolute;
+        left: 600px;
+        top: 300px;
+        font-size: 40px;
+        background-color:rgb(20, 24, 24);
+        padding:15px;
+        text-decoration:none;
+        -webkit-transition:all 0.5s ease-out;
+        -moz-transition:all 0.5s ease-out;
+        -o-transition:all 0.5s ease-out;
+        transition:all 0.5s ease-out;
+}
+#yazı1:hover {
+        background-color: rgb(180, 172, 54);
+        border-radius: 3rem;
+}
+#yazı2{
+        position:absolute;
+        left: 550px;
+        top: 500px;
+        font-size: 40px;
+        background-color:rgb(20, 24, 24);
+        padding:15px;
+        text-decoration:none;
+        -webkit-transition:all 0.5s ease-out;
+        -moz-transition:all 0.5s ease-out;
+        -o-transition:all 0.5s ease-out;
+        transition:all 0.5s ease-out;
+}
+#yazı2:hover{
+        background-color: rgb(180, 172, 54);
+        border-radius: 3rem;
+}
+#yazı3{
+        position: absolute;
+        left: 900px;
+        top:500px;
+        font-size: 40px;
+        background-color:rgb(20, 24, 24);
+        padding:15px;
+        text-decoration:none;
+        -webkit-transition:all 0.5s ease-out;
+        -moz-transition:all 0.5s ease-out;
+        -o-transition:all 0.5s ease-out;
+        transition:all 0.5s ease-out;
+}
+#yazı3:hover{
+        background-color:rgb(180, 172, 54); 
+        border-radius: 3rem;
+}
+
+.block {
+  position: absolute;
+  width: 290px;
+  height: 200px;
+  background-color:rgb(20, 24, 24);
+  border-color: rgba(230, 198, 22, 0.808);
+  border-radius: 7rem;
+  left: 90px;
+  top: 90px;
+  animation: pulsate 0.5s infinite alternate;  
+        border: 0.1rem solid #fff;
+        border-radius: 1rem;
+        padding: 0.2em;
+        box-shadow: 0 0 .1rem #fff,
+                    0 0 .1rem #fff,
+                    0 0 1rem rgba(230, 198, 22, 0.808),
+                    0 0 0.4rem rgba(230, 198, 22, 0.808),
+                    0 0 1.4rem rgba(230, 198, 22, 0.808),
+                    inset 0 0 1.3rem rgba(230, 198, 22, 0.808); 
+  
+}
+.block img {
+ position: absolute;
+ width: 260px;
+ height: 170px;
+ left: 20px;
+ top: 20px;
+ border-radius: 2rem;
+}
+
+@import url('http://fonts.googleapis.com/css?family=Poppins');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    
+}
+.container{
+    position: absolute;
+    width: 1100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap:15px;
+    margin:0 auto;
+    top: 430px;
+    left: 270px;
+}
+.container .card{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    background: rgba(236, 196, 15, 0.822);
+    transition: 0.5s;
+    
+}
+.container .card:hover{
+    box-shadow: 0 30px 50px rgba(236, 196, 15, 0.822);
+}
+.container .card .face{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .card .face.face1{
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    background: rgba(230, 198, 22, 0.808);
+    color: rgba(230, 198, 22, 0.808);
+}
+.container .card .face.face1 {
+    margin-top: 60px;
+}
+.container .card .face.face1 {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: rgba(230, 198, 22, 0.808);
+    border:0.05px solid rgba(230, 198, 22, 0.808);
+    transition: 0.5s;
+}
+.container .card .face.face1 {
+    color:rgb(248, 255, 255);
+    background: rgba(230, 198, 22, 0.808); 
+}
+.container .card .face.face2{
+    background: rgba(230, 198, 22, 0.808);
+    transition: 0.5s;
+}
+.container .card:hover .face.face2{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    top: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:rgba(230, 198, 22, 0.808) ;
+    border:2px solid rgba(255, 255, 255, 0.801);
+}
+.container .card .face.face2 {
+    margin: 0px;
+    padding: 0;
+    font-size: 2em;
+    color: rgba(230, 198, 22, 0.808);
+    transition: 0.5s;
+}
+.container .card:hover .face.face2 {
+    color:rgba(255, 255, 255, 0.822);
+    font-size: 2em;
+}
+.resimler{
+  border-radius: 7rem;
+  border: 2px
+}
+
+
+</style>
+
+
+</head>
+
+<body>
+        
+    
+    <div class="h1"><h1>Süleyman Can<br>Tuğcu</h1></div>
+
+    <a href="index.html"><div style="color:rgb(233, 218, 189);"id="anasayfa">Anasayfa</div></a>
+    <a href="hakkındakodu.html"><div id="cv" style="color: rgb(233, 218, 189);">Hakkımda</div></a>
+    <a href="iletişiminkodu.html"><div id="iletişim" style="color: rgb(233, 218, 189);">İletişim</div></a>
+    
+    <div class="container">
+        <div class="card">
+          <div class="face face1">
+            <div class="content">
+              <h2>Özelliklerim</h2>
+              <br>
+              <h3>-Yaratıcılık<br><br>-Takım Oyuncusu<br><br>-Lider<br><br>-Pozitif<br><br>-Hırslı<br></h3>
+            </div>
+          </div>
+          <div class="face face2">
+          <div id="resimler">
+                <img src="skills.jpg"width="100"height="100"class="resimler">
+              </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="face face1">
+                <div class="content">
+                  <h2>Bilgilerim</h2>
+                  <br>
+                  <h3>Ad-Soyad: Süleyman Can Tuğcu<br><br>Okul: Uludağ Üniversitesi<br><br>Bölüm: Bilgisayar Mühendisliği<br><br>
+                  Sınıf: 1.sınıf<br><br>Numara: 032190012<br>İstanbul'dan geldim.<br>
+                  </h3>
+                  
+                </div>
+              </div>
+              <div class="face face2">
+                <div id="resimler">
+                <img src="info.jpg" width="100"height="100"class="resimler">
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="face face1">
+                <div class="content">
+                   <h2>Hedefler</h2>
+                   <br>
+                  <h4>-Yeterli teknoloji bilgisiyle üniversiteden mezun olmak<br><br>-Olabildiğince insan ile tanışıp çevre edinerek mezun olmak<br><br>
+                  -Analitik düşünme becerisini kazanarak mezun olmak<br>-Mezun olduktan sonra belirli süre özel sektörde çalışıp kendi Start-up şirketimi kurmak<br>
+                  -Türkiye ve dünyaya iz bırakmak
+
+                  </h4>
+                </div>
+              </div>
+              <div class="face face2">
+              <div id="resimler">
+                <img src="hedefler.jpg" width="100" height="100"class="resimler">
+              </div>
+            </div>
+          </div>
+        </div>
+
+    
+        
+
+
+
+
+</body>
+
+</html>
